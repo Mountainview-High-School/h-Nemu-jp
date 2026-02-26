@@ -1,5 +1,6 @@
 # heading
 
+
 ```plantuml
 @startuml
 ' config
@@ -10,23 +11,23 @@ hide circle
 entity "Student" {
 student_id: INTEGER
 --
-first_name: TEXT
-last_name: TEXT
-date_of_birth: DATE
+first_name: optimus
+last_name: prime
+date_of_birth: unknown
 --
-first_name: TEXT
-last_name: TEXT
-date_of_birth: DATE
+first_name: megatron
+last_name: d-16
+date_of_birth: unknown
 }
 
 entity "Class" {
 class_id: INTEGER :PK
 --
-class_1: TEXT
+class_1: shockwave's class of doom
 --
-class_2: TEXT
+class_2: how to not be evil 101
 --
-class_3: TEXT
+class_3: cybertron's history
 --
 }
 
