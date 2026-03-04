@@ -14,3 +14,4 @@ name_letter=input("name a letter")
 #did you know shockwave was a senator but was charged with crimminal charges, and was forced into a surgery that replaces his face and takes out his emotions
 #did you know soundwave only talked once during the series transformers prime
 #did you know starscream was a seeker
+
