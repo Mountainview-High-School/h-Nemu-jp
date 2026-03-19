@@ -11,3 +11,11 @@ def hello_world():
 def about_page():
     return render_template("about.html")
 
+
+@app.route("/layout.html")
+def about_page():
+    return render_template("layout.html")
+
+@app.route("/content1.html")
+def about_page():
+    return render_template("content1.html")
