@@ -1,12 +1,23 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {%block head%}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <link rel="stylesheet" href="{{url_for('static' , filename = stylecopy.css')}}">
+    <title>{% block title %}{% endblock%} - MVHS website</title>
 </head>
 <body>
-    
+    <header>
+        this is where my menu goes
+        <menu>
+           <li>home</li>
+           <li>about</li>
+        </menu>
+    </header>
+    <article>
+        {%block content%}{%endblock%}
+    </article>
 </body>
 </html>
